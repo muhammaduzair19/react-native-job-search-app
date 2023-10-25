@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "job-seek",
+    "slug": "job-seek",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "30ecc0f8-4fa1-48a4-8b64-5c947816ed02"
+      }
+    },
+    "android": {
+      "package": "com.muhammaduzair19.jobseek"
+    },
+    "ios": {
+      "bundleIdentifier": "com.muhammaduzair19.jobseek"
+    }
+  }
+}
